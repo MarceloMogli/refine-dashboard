@@ -5,6 +5,7 @@ import { useNavigate } from "@pankod/refine-react-router-v6";
 import Form from "components/common/Form";
 
 const CreateProperty = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const navigate = useNavigate();
   const { data: user } = useGetIdentity();
   const [propertyImage, setPropertyImage] = useState({ name: "", url: "" });
